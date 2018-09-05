@@ -1,6 +1,40 @@
-* {
+*{
     padding: 0;
     margin: 0;
     list-style: none;
-    background-color: rgb(59, 163, 223);
+    color:rgb(94, 93, 93);
+}
+
+.resume{
+    width: 50%;
+    margin: 0 auto;
+    /* padding: 20px; */
+    background-color: rgb(223, 223, 223);
+}
+    
+.resTital{
+    height:80px;
+    background-color: rgb(68, 157, 230);
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    font-family: "仿宋";
+    padding: 20px;
+}
+
+.inf{
+    border-bottom: 1px dashed #000;
+    margin: 10px;
+    padding-left: 15px;
+}
+.person{
+    background-color:red;
+}
+.person>li{
+    margin: 7px;
+}
+.person>img{
+    width: 100px;
+    margin-left: 0px;
+    float: right;
 }
